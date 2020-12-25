@@ -25,6 +25,6 @@ do
     echo -n "Hello, what is the quantity of total files in this directory?: "
     read number
     clear
-    filecount=$(ls -1q | wc -l)
+    filecount=$(ls -A -1q | wc -l)
 evalnums
 done
